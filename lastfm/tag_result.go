@@ -84,7 +84,7 @@ type TagGetTopTags struct {
 
 //tag.getTopTracks
 type TagGetTopTracks struct {
-	XMLName    xml.Name `xml:"toptracks"`
+	XMLName    xml.Name `xml:"tracks"`
 	Tag        string   `xml:"tag,attr"`
 	Total      int      `xml:"total,attr"`
 	Page       int      `xml:"page,attr"`
